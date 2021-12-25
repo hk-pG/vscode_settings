@@ -61,8 +61,8 @@
   "Print function description": {
     "prefix": "fun",
     "body": [
-      "/* ${1:function}()",
-      "\t概要:$2\n*/",
+      "/*",
+      "\t概要:$1\n*/",
       "// 第1引数: ${3:Argument}",
       "// 返り値  : ${4:returnValue}"
     ]
