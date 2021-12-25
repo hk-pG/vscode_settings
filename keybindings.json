@@ -1,37 +1,47 @@
 // 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
 [
-    {
-        "key": "ctrl+shift+oem_plus",
-        "command": "editor.action.fontZoomIn"
-    },
-    {
-        "key": "ctrl+shift+oem_minus",
-        "command": "editor.action.fontZoomOut"
-    },
-    {
-        "key": "alt+cmd",
-        "command": "workbench.action.toggleMultiCursorModifier"
-    },
-    {
-        "key": "cmd+p",
-        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
-        "when": "inFilesPicker && inQuickOpen"
-    },
-    {
-        "key": "alt+s",
-        "command": "git.stageAll"
-    },
-    {
-        "key": "alt+k",
-        "command": "git.commitStaged"
-    },
-    {
-        "key": "alt+p",
-        "command": "git.push"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "workbench.action.reloadWindow",
-        "when": ""
-    }
+  {
+    "key": "ctrl+shift+oem_plus",
+    "command": "editor.action.fontZoomIn"
+  },
+  {
+    "key": "ctrl+shift+oem_minus",
+    "command": "editor.action.fontZoomOut"
+  },
+  {
+    "key": "alt+cmd",
+    "command": "workbench.action.toggleMultiCursorModifier"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "alt+s",
+    "command": "git.stageAll"
+  },
+  {
+    "key": "alt+k",
+    "command": "git.commitStaged"
+  },
+  {
+    "key": "alt+p",
+    "command": "git.push"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "workbench.action.reloadWindow",
+    "when": ""
+  },
+  {
+    "key": "alt+enter",
+    "command": "github.copilot.generate",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-github.copilot.generate",
+    "when": "editorTextFocus"
+  }
 ]

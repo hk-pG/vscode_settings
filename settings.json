@@ -82,7 +82,6 @@
 
   "cSpell.userWords": [
     "Behaviour",
-    "Perim",
     "browserslist",
     "bunbo",
     "bunsi",
@@ -96,9 +95,12 @@
     "execa",
     "fgets",
     "gaearon",
+    "hamako",
     "isexe",
     "isobject",
     "mixins",
+    "Perim",
+    "phina",
     "picomatch",
     "printf",
     "randombytes",
@@ -118,7 +120,9 @@
   ],
 
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  // "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "terminal.integrated.fontWeight": "bold",
   "workbench.colorCustomizations": {
     "terminal.background": "#090300",
     "terminal.foreground": "#FDED02",
@@ -160,7 +164,7 @@
   "workbench.editor.enablePreview": false,
 
   //エディタの基本のフォントサイズを決める
-  "editor.fontSize": 18,
+  "editor.fontSize": 15,
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.tabSize": 4,
   "editor.cursorStyle": "line",
@@ -175,6 +179,7 @@
   "editor.autoClosingBrackets": "always",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -184,10 +189,6 @@
   "tabnine.experimentalAutoImports": true,
   "diffEditor.ignoreTrimWhitespace": false,
 
-  // neovimの設定
-  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/hk-p/.config/nvim/init.vim",
-
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
@@ -196,7 +197,6 @@
   },
 
   // git関連
-  "git.autofetch": true,
   "git.enableSmartCommit": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.autoClosingQuotes": "always",
@@ -204,5 +204,13 @@
   "editor.insertSpaces": false,
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  }
+  },
+  "vscode-neovim.neovimExecutablePaths.linux": "/home/student/ei/ei20/ei2030/nvim/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.win32": "/home/student/ei/ei20/ei2030/.config/nvim",
+  "http.proxy": "http://ei2030:hukada114514@proxy.hamako-ths.ed.jp:8080/",
+  "http.proxyStrictSSL": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "git.confirmSync": false,
+  "editor.inlayHints.fontSize": 4,
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
